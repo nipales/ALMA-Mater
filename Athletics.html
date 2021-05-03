@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8 ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(66, 59, 59, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("c.gif");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 3px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav input[type=text] {
+  background:  rgba(83, 79, 79, 0.5);
+  color: #f1f1f1;
+  float: right;
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  position: absolute;
+  top: 25%;
+  left: 80%;
+}
+::placeholder {
+  color: #f1f1f1;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+a {
+  margin-left: 50px;
+  color: rgb(56, 1, 1);
+  
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+.content {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(83, 79, 79, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+h1 em{
+   color: red;
+}
+h2  {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  margin: 10%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+ul {
+  margin: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.b1 {
+    background:rgb(255, 255, 255);
+    position: relative;
+    flex: 50%;
+    max-width: 600px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2)
+}
+.b4 {
+    background:rgb(255, 255, 255);
+    position: relative;
+    flex: 50%;
+    max-width: 600px;
+    height: 150px;
+    margin: 65px;
+    margin-bottom: 0%;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+.pics {
+  float: right;
+  margin-right: 5%;
+  margin-top: 7%;
+}
+</style>
+</head>
+<body>
+    <a id="Home"></a>
+<div class="container"></div>
+<div class="bg-image"></div>
+<div class="bg-text">
+    <img src="bb.png" width="100" >
+  <h1 style="font-size:35px;font-family:times new roman">Welcome to University of <em>Baguio</em><br> High School</h1>
+</div>
+<div class="content">
+  <img src="ub.png" width="150" style="float: left;">
+    <p style="text-align: center;"><b><a href="index.html">Home 
+        <a href="CourseOffered.html" target="_blank">Course Offered  
+          <a href="Athletics" target="_blank" >Athletics 
+        <a href="News.html" target="_blank">News 
+          <a href="Contacts.html" target="_blank">About UB & Contacts </a></b></p>
+        <div class="topnav">
+          <input type="text" placeholder="Search"></div>
+  </div>
+  <h2>Athletics</h2>
+  <p>Sporting activities for children are a natural fit. Being a member of an athletic team is important for a child's growth and development. Children who participate in sports cultivate important character qualities such as loyalty, duty, honor, perseverance, unity, leadership, and sportsmanship. Every student deserves to benefit from being part of a team. The University of Baguio offers a specific tuition fee discount. </p><br>
+  <p>A variety of sporting associations are housed at the University of Baguio. The UB Cardinals are the school's mascot with many teams, including basketball, volleyball, table tennis, badminton, chess, and athletics. UB is collaborating with the Baguio Defenders, a multi-award-winning taekwondo team. The University of Baguio has a national award-winning squad of Arnisadors, or Arnis teams, and judo players. </p>
+  <div class="row">
+        <div class="b1">
+          <div class="pics"><img src="sport.jpg" width="350" ></div>
+            <h4 style="text-align: center;"> SPORTS</h4>
+            <ul>
+            <li>Athletics</li>
+            <li>Basketball</li>
+            <li>Swimming</li>
+            <li>Volleyball</li>
+            <li>Table Tennis</li>
+            <li>Badminton</li>
+            <li>Chess</li>
+            <li>Arnis</li>
+            </ul>
+        </div>
+        <div class="b4">
+            <h4 style="text-align: center;">  ATHLETIC SCHOLARSHIP</h4>
+            <ul>
+            <li>Class A - 50% discount on tuition fee only</li>
+            <li>Class B - 30% discount on tuition fee only</li>
+            <li>Class C - 20% discount on tuition fee only</li>
+         </div>
+    </div>
+    <p style="text-align: center;">(ALL CONTENT NOT MINE!)</p>
+  <p style="text-align: center; margin-left: 5%;"><a href="https://www.ubaguio.edu/" target="_blank">Click to visit reference site!</a></p>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8 ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(66, 59, 59, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("c.gif");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 3px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav input[type=text] {
+  background:  rgba(83, 79, 79, 0.5);
+  color: #f1f1f1;
+  float: right;
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  position: absolute;
+  top: 25%;
+  left: 80%;
+}
+::placeholder {
+  color: #f1f1f1;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+a {
+  margin-left: 50px;
+  color: rgb(56, 1, 1);
+  
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+.content {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(83, 79, 79, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+h1 em{
+   color: red;
+}
+h2  {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  margin: 10%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+ul {
+  margin: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.b1, .b2, .b3 {
+    background:rgb(255, 255, 255);
+    position: relative;
+    flex: 50%;
+    max-width: 600px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+.b4 {
+    background:rgb(255, 255, 255);
+    position: relative;
+    flex: 50%;
+    max-width: 600px;
+    height: 350px;
+    margin: 65px;
+    margin-bottom: 0%;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+.pics {
+  float: right;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+</style>
+</head>
+<body>
+    <a id="Home"></a>
+<div class="container"></div>
+<div class="bg-image"></div>
+<div class="bg-text">
+    <img src="bb.png" width="100" >
+  <h1 style="font-size:35px;font-family:times new roman">Welcome to University of <em>Baguio</em><br> High School</h1>
+</div>
+<div class="content">
+  <img src="ub.png" width="150" style="float: left;">
+    <p style="text-align: center;"><b><a href="index.html">Home 
+        <a href="CourseOffered.html" target="_blank">Course Offered  
+          <a href="Athletics.html" target="_blank" >Athletics 
+        <a href="News.html" target="_blank">News 
+          <a href="Contacts.html" target="_blank">About UB & Contacts </a></b></p>
+        <div class="topnav">
+          <input type="text" placeholder="Search"></div>
+  </div>
+  <h2>Senior High School Tracks Offered</h2>
+    <div class="row">
+        <div class="b1">
+          <div class="pics"><img src="stem.jpg" width="150" ></div>
+            <h4 style="text-align: center;">ACADEMIC TRACK</h4>
+            <ul>
+            <li>Accountancy. Business & Management (ABM) Strand</li>
+            <li>Humanities & Social Science (HUMSS) Strand</li>
+            <li>Science, Technology, Engineering & Mathematics (STEM) Strand</li>
+            <li>General Academic Strand (GAS)</li>
+            </ul>
+            
+        </div>
+        <div class="b2">
+            <div class="pics"><img src="arts.jpg" width="250" ></div>
+            <h4 style="text-align: center;"> ARTS & DESIGN TRACK</h4>
+            <ul>
+            <li>Media Arts</li>
+            <li>Performing Arts</li>
+            </ul>
+        </div>
+        <div class="b3">
+            <div class="pics"><img src="rrt.jpg" width="250" ></div>
+            <h4 style="text-align: center;"> SPORTS TRACK</h4>
+            <ul>
+            <li>Athletics</li>
+            <li>Basketball</li>
+            <li>Swimming</li>
+            </ul>
+        </div>
+        <div class="b4">
+          <div class="pics"><img src="Tech-Voc.png" width="230" ></div>
+            <h4 style="text-align: center;"> TECHNICAL - VOCATIONAL LIVELIHOOD TRACK</h4>
+            <p><b>Home Economics</b></p>
+            <ul>
+            <li>Bread & Pastry Production</li>
+            <li>Cookery</li>
+            <li>Food & Beverage Services</li>
+            <li>Housekeeping</li>
+            <li>Tour Guiding</li>
+            </ul>
+            <p><b>Information and Communications Technology</b></p>
+            <ul>
+            <li>Computer Systems Servicing</li>
+            <li>Visual Graphics</li>
+         </div>
+    </div>
+</div>
+<h4 style="margin: 10%; margin-bottom: 3%;"> REQUIREMENTS</h4>
+<ul>
+<li>Certificate of Junior High School Completion</li>
+<li>National Career Assessment Exam Result</li>
+<li>Certificate of Good Moral</li>
+<li>UB Career Assessment Exam Result</li>
+<li>NSO Birth Certificate</li>
+<li>Form 138</li>
+<li>2 x 2 picture</li>
+</ul><br>
+<p style="text-align: center;">(ALL CONTENT NOT MINE!)</p>
+  <p style="text-align: center; margin-left: 5%;"><a href="https://www.ubaguio.edu/" target="_blank">Click to visit reference site!</a></p>
+</body>
+</html>
